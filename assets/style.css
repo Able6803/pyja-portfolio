@@ -296,3 +296,14 @@ p + p { margin-top: 12px; }
   html { scroll-behavior: auto; }
   body { transition: none; }
 }
+
+/* ————— print (resume PDF) ————— */
+@media print {
+  .lang-toggle, .main-nav, .hero-cta, .site-foot, .btn { display: none !important; }
+  .hero { padding: 24px 0 16px; border-bottom: none; }
+  .section { padding: 22px 0; }
+  .red-panel { background: none; color: var(--ink); border: 1px solid var(--ink); }
+  body { font-size: 12pt; }
+  a { color: var(--ink); text-decoration: none; }
+  .wrap { max-width: none; padding: 0; }
+}
