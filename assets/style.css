@@ -1,4 +1,4 @@
-/* pyja.net — bilingual dossier
+/* pyja.net — bilingual dossier, v2 (market-mapped)
    Tokens: paper #F7F5F0 · ink #16181D · red #C41E24 · hairline #DDD9CE
    Type: PT Serif (display) · PT Sans (body) · IBM Plex Mono (labels) */
 
@@ -100,14 +100,6 @@ h2 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 18px; }
 h3 { font-size: 20px; }
 p + p { margin-top: 12px; }
 
-.marginalia {
-  font-family: var(--mono);
-  font-size: 12px;
-  line-height: 1.9;
-  color: var(--steel);
-}
-.marginalia b { color: var(--ink); font-weight: 500; }
-
 /* ————— hero ————— */
 .hero { padding: 72px 0 56px; border-bottom: 1px solid var(--hairline); }
 .hero-grid {
@@ -118,8 +110,19 @@ p + p { margin-top: 12px; }
 }
 .hero h1 { margin-bottom: 22px; }
 .hero .lede { font-size: 19px; max-width: 34em; color: var(--ink-soft); }
-.hero .lede .ru-note { color: var(--steel); }
+.hero .lede.ru-note { color: var(--steel); font-style: italic; }
 .hero-cta { margin-top: 34px; display: flex; gap: 18px; flex-wrap: wrap; }
+
+/* constructivist red field — the one bold move */
+.red-panel {
+  background: var(--red);
+  color: #fff;
+  padding: 20px 18px;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 2;
+}
+.red-panel b { font-weight: 500; color: #fff; }
 
 .btn {
   display: inline-block;
@@ -205,13 +208,14 @@ p + p { margin-top: 12px; }
 
 /* ————— resume ————— */
 .resume-section h3 { margin-bottom: 4px; }
-.resume-section .meta { font-family: var(--mono); font-size: 12px; color: var(--steel); letter-spacing: 0.06em; margin-bottom: 10px; }
 .resume-entry { padding: 22px 0; border-bottom: 1px solid var(--hairline); }
 .resume-entry:last-child { border-bottom: none; }
 .entry-head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: baseline; }
 .entry-head h4 { font-family: var(--serif); font-size: 18px; }
 .entry-head .when { font-family: var(--mono); font-size: 12px; color: var(--steel); }
 .entry-body { margin-top: 8px; font-size: 15px; color: var(--ink-soft); max-width: 60ch; }
+.entry-body ul { margin-top: 8px; padding-left: 20px; }
+.entry-body li { margin-bottom: 6px; }
 .placeholder {
   font-family: var(--mono);
   font-size: 12px;
