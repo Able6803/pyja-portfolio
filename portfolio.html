@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio — Kris Liles</title>
-  <meta name="description" content="Portfolio of Kris Liles — self-hosted operations lab, Russian language tooling, genealogical research, and AI agent operations.">
+  <meta name="description" content="Portfolio of Kris Liles — language processing, network analysis, OSINT methodology, and reporting automation.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,9 +16,7 @@
       <a class="logo" href="index.html">KML<span class="logo-red">.</span> <span data-i18n="logo.tag">Kris Liles</span></a>
       <nav class="main-nav">
         <a href="index.html" data-i18n="nav.home">Home</a>
-        <a href="resume.html" data-i18n="nav.resume">Résumé</a>
         <a href="portfolio.html" class="active" data-i18n="nav.portfolio">Portfolio</a>
-        <a href="contact.html" data-i18n="nav.contact">Contact</a>
       </nav>
       <button class="lang-toggle" aria-label="Switch language">RU</button>
     </div>
@@ -28,7 +26,7 @@
     <div class="wrap">
       <p class="eyebrow" data-i18n="portfolio.eyebrow">Built things · Построенные вещи</p>
       <h1 data-i18n="portfolio.title">Portfolio</h1>
-      <p class="lede" data-i18n="portfolio.lead">Four tracks, each mapped to a line in the job description.</p>
+      <p class="lede" data-i18n="portfolio.lead">Placeholder examples — each one maps to a line in the job description. Real projects replace these as they ship.</p>
     </div>
   </section>
 
@@ -36,39 +34,39 @@
     <div class="wrap">
       <div class="dossier">
         <div class="dossier-item">
-          <div class="cat" data-i18n="pf.1.cat">Инфраструктура</div>
+          <div class="cat" data-i18n="pf.1.cat">Язык</div>
           <div>
-            <h3 data-i18n="pf.1.t">Self-hosted operations lab</h3>
-            <p class="desc" data-i18n="pf.1.d">Oracle ARM free tier running media and document services behind a Cloudflare Zero Trust tunnel: default-deny firewall, fail2ban, unattended upgrades, zero inbound exposure beyond SSH. Direct evidence for the network-infrastructure line in every TDNA posting.</p>
-            <p class="tags" data-i18n="pf.1.tags">docker · cloudflare · linux hardening</p>
-            <span class="status" data-i18n="pf.1.status">In production</span>
+            <h3 data-i18n="pf.1.t">Russian text-analysis pipeline</h3>
+            <p class="desc" data-i18n="pf.1.d">A small NLP pipeline for Russian-language material: corpus ingestion, tokenization, frequency and concordance extraction. Demonstrates language processing as a technical skill — not just reading proficiency.</p>
+            <p class="tags" data-i18n="pf.1.tags">python · nlp · russian</p>
+            <span class="status" data-i18n="pf.1.status">In development</span>
           </div>
         </div>
         <div class="dossier-item">
-          <div class="cat" data-i18n="pf.2.cat">Язык</div>
+          <div class="cat" data-i18n="pf.2.cat">Сети</div>
           <div>
-            <h3 data-i18n="pf.2.t">Russian language tooling</h3>
-            <p class="desc" data-i18n="pf.2.d">DLPT-style practice engine and a Gloss→Anki pipeline that turns military glossaries into drill decks. The bilingual toggle on this site is the same discipline: language as working infrastructure.</p>
-            <p class="tags" data-i18n="pf.2.tags">html/js · anki · instructional design</p>
-            <span class="status" data-i18n="pf.2.status">In use</span>
+            <h3 data-i18n="pf.2.t">Synthetic network graph lab</h3>
+            <p class="desc" data-i18n="pf.2.d">Node-link visualization and topology analysis over synthetic datasets — degree distribution, bridges, communities. Demonstrates network-analysis thinking without touching real data.</p>
+            <p class="tags" data-i18n="pf.2.tags">graphs · visualization · analysis</p>
+            <span class="status" data-i18n="pf.2.status">In development</span>
           </div>
         </div>
         <div class="dossier-item">
-          <div class="cat" data-i18n="pf.3.cat">Исследование</div>
+          <div class="cat" data-i18n="pf.3.cat">OSINT</div>
           <div>
-            <h3 data-i18n="pf.3.t">Genealogical research archive</h3>
-            <p class="desc" data-i18n="pf.3.d">Multi-line family reconstruction with citation-grade sourcing — 89 ancestor cards, 276 source links, interactive visual tree. Written-evidence discipline applied outside the job.</p>
-            <p class="tags" data-i18n="pf.3.tags">research · citations · html/js</p>
-            <span class="status" data-i18n="pf.3.status">In progress</span>
+            <h3 data-i18n="pf.3.t">Open-source collection workflow</h3>
+            <p class="desc" data-i18n="pf.3.d">A documented collection methodology: query-syntax library, source-evaluation checklist, and a repeatable capture-to-product workflow. Demonstrates disciplined collection and sourcing.</p>
+            <p class="tags" data-i18n="pf.3.tags">osint · methodology · sourcing</p>
+            <span class="status" data-i18n="pf.3.status">In development</span>
           </div>
         </div>
         <div class="dossier-item">
-          <div class="cat" data-i18n="pf.4.cat">ИИ</div>
+          <div class="cat" data-i18n="pf.4.cat">Отчётность</div>
           <div>
-            <h3 data-i18n="pf.4.t">AI agent operations</h3>
-            <p class="desc" data-i18n="pf.4.d">Persistent agent deployments: scheduled financial and security monitoring, multi-agent research operations, and skill engineering for repeatable workflows. The analytic-modernization line, demonstrated.</p>
-            <p class="tags" data-i18n="pf.4.tags">agents · cron · automation</p>
-            <span class="status" data-i18n="pf.4.status">In use</span>
+            <h3 data-i18n="pf.4.t">Automated reporting pipeline</h3>
+            <p class="desc" data-i18n="pf.4.d">Scheduled data collection feeding a templated intelligence product — the collection-to-report loop, automated. Demonstrates finished reporting and the tooling behind it.</p>
+            <p class="tags" data-i18n="pf.4.tags">automation · reporting · cron</p>
+            <span class="status" data-i18n="pf.4.status">In development</span>
           </div>
         </div>
       </div>

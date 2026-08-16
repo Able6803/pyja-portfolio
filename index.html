@@ -16,9 +16,7 @@
       <a class="logo" href="index.html">KML<span class="logo-red">.</span> <span data-i18n="logo.tag">Kris Liles</span></a>
       <nav class="main-nav">
         <a href="index.html" class="active" data-i18n="nav.home">Home</a>
-        <a href="resume.html" data-i18n="nav.resume">Résumé</a>
         <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
-        <a href="contact.html" data-i18n="nav.contact">Contact</a>
       </nav>
       <button class="lang-toggle" aria-label="Switch language">RU</button>
     </div>
@@ -32,7 +30,7 @@
         <p class="lede" data-i18n="hero.lede">Language-enabled SIGINT analysis — target development, network mapping, and finished reporting, in Russian and English.</p>
         <p class="lede ru-note" data-i18n="hero.lede.ru">Язык — это вход, а не сама работа. Переключите язык: этот сайт читается по-русски.</p>
         <div class="hero-cta">
-          <a class="btn primary" href="resume.html" data-i18n="hero.cta.resume">Read the résumé</a>
+          <a class="btn primary" href="#experience" data-i18n="hero.cta.resume">Jump to the résumé</a>
           <a class="btn" href="portfolio.html" data-i18n="hero.cta.work">See the work</a>
         </div>
       </div>
@@ -61,28 +59,35 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="wrap">
+  <section class="section" id="experience">
+    <div class="wrap resume-section">
       <div class="section-head">
-        <span class="sec-num" data-i18n="sec.instr.num">02</span>
-        <h2 data-i18n="sec.instr">Instruments</h2>
+        <span class="sec-num" data-i18n="resume.exp.num">02</span>
+        <h2 data-i18n="resume.exp">Experience</h2>
       </div>
-      <div class="instruments">
-        <div class="instrument">
-          <div class="k" data-i18n="instr.analysis.k">Analysis</div>
-          <div class="v" data-i18n="instr.analysis.v">SIGINT target development — DNR/DNI querying, network topology, metadata, OSINT fusion, finished reporting.</div>
-          <div class="m" data-i18n="instr.analysis.m">TDNA track</div>
+
+      <div class="resume-entry">
+        <div class="entry-head">
+          <h4 data-i18n="resume.exp.1.t">Russian Cryptologic Language Analyst</h4>
+          <span class="when" data-i18n="resume.exp.1.w">U.S. Air Force — [заполнить]</span>
         </div>
-        <div class="instrument">
-          <div class="k" data-i18n="instr.lang.k">Language</div>
-          <div class="v" data-i18n="instr.lang.v">Russian to idiomatic English — gisting, transcription, full translation. Tested at ILR 2+/2/1+.</div>
-          <div class="m" data-i18n="instr.lang.m">ILR 2+/2/1+</div>
+        <p class="entry-body" data-i18n="resume.exp.1.b">Language operations in Russian with deliverables in idiomatic English: gisting, transcription, and full translation in support of SIGINT collection operations. Product dissemination across intelligence consumers.</p>
+      </div>
+
+      <div class="resume-entry">
+        <div class="entry-head">
+          <h4 data-i18n="resume.exp.2.t">Target Digital Network Analyst — in development</h4>
+          <span class="when" data-i18n="resume.exp.2.w">U.S. Air Force — [заполнить]</span>
         </div>
-        <div class="instrument">
-          <div class="k" data-i18n="instr.infra.k">Infrastructure</div>
-          <div class="v" data-i18n="instr.infra.v">Self-hosted Linux, Docker, Cloudflare Zero Trust. I run the lab I analyze with.</div>
-          <div class="m" data-i18n="instr.infra.m">24/7</div>
+        <p class="entry-body" data-i18n="resume.exp.2.b">Target development against digital networks: DNR/DNI querying, network topology mapping, metadata analysis, and open-source fusion toward cyber intelligence assessments.</p>
+      </div>
+
+      <div class="resume-entry">
+        <div class="entry-head">
+          <h4 data-i18n="resume.exp.3.t">[заполнить]</h4>
+          <span class="when" data-i18n="resume.exp.3.w">—</span>
         </div>
+        <p class="entry-body" data-i18n="resume.exp.3.b">Placeholder for your next entry.</p>
       </div>
     </div>
   </section>
@@ -90,11 +95,97 @@
   <section class="section">
     <div class="wrap">
       <div class="section-head">
-        <span class="sec-num" data-i18n="sec.feat.num">03</span>
-        <h2 data-i18n="sec.feat">Featured work</h2>
+        <span class="sec-num" data-i18n="sec.cred.num">03</span>
+        <h2 data-i18n="sec.cred">Credentials</h2>
       </div>
-      <p style="margin-bottom: 26px; color: var(--ink-soft);" data-i18n="feat.lead">Proof of work, mapped to the job description.</p>
-      <a class="btn" href="portfolio.html" data-i18n="feat.link">Go to portfolio →</a>
+      <div class="instruments">
+        <div class="instrument">
+          <div class="k" data-i18n="cred.edu.k">Education</div>
+          <div class="v" data-i18n="cred.edu.v">Defense Language Institute — Russian Basic Course, full-time immersion. Graduated DLPT 2+/2/1+.</div>
+          <div class="m" data-i18n="cred.edu.m">Monterey, CA</div>
+        </div>
+        <div class="instrument">
+          <div class="k" data-i18n="cred.cert.k">Certifications</div>
+          <div class="v" data-i18n="cred.cert.v">[заполнить — DoD 8570/8140 IAT Level II, e.g. Security+]</div>
+          <div class="m" data-i18n="cred.cert.m">[заполнить]</div>
+        </div>
+        <div class="instrument">
+          <div class="k" data-i18n="cred.lang.k">Languages</div>
+          <div class="v" data-i18n="cred.lang.v">Russian — ILR 2+/2/1+ (DLPT) · English — native</div>
+          <div class="m" data-i18n="cred.lang.m">ILR 2+/2/1+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap resume-section">
+      <div class="section-head">
+        <span class="sec-num" data-i18n="resume.skills.num">04</span>
+        <h2 data-i18n="resume.skills">Skills</h2>
+      </div>
+      <div class="skill-cols">
+        <div>
+          <h4 data-i18n="skills.cyber">SIGINT &amp; analysis</h4>
+          <ul>
+            <li data-i18n="sk.cyber.1">DNR/DNI querying</li>
+            <li data-i18n="sk.cyber.2">Target development</li>
+            <li data-i18n="sk.cyber.3">Network topology analysis</li>
+            <li data-i18n="sk.cyber.4">Metadata &amp; OSINT fusion</li>
+            <li data-i18n="sk.cyber.5">Finished reporting</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="skills.lang">Language</h4>
+          <ul>
+            <li data-i18n="sk.lang.1">Russian — ILR 2+/2/1+</li>
+            <li data-i18n="sk.lang.2">Gisting &amp; transcription</li>
+            <li data-i18n="sk.lang.3">Translation to idiomatic English</li>
+            <li data-i18n="sk.lang.4">Product dissemination</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="skills.infra">Infrastructure</h4>
+          <ul>
+            <li data-i18n="sk.infra.1">Linux hardening</li>
+            <li data-i18n="sk.infra.2">Docker &amp; Compose</li>
+            <li data-i18n="sk.infra.3">Cloudflare Zero Trust</li>
+            <li data-i18n="sk.infra.4">Self-hosted services</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="skills.ai">Automation &amp; AI</h4>
+          <ul>
+            <li data-i18n="sk.ai.1">Agent workflows</li>
+            <li data-i18n="sk.ai.2">Cron automation</li>
+            <li data-i18n="sk.ai.3">Scripting &amp; tooling</li>
+            <li data-i18n="sk.ai.4">Skill engineering</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" style="border-bottom: none;">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="sec-num" data-i18n="sec.contact.num">05</span>
+        <h2 data-i18n="sec.contact">Contact</h2>
+      </div>
+      <p class="entry-body" style="margin-bottom: 20px; color: var(--ink-soft);" data-i18n="contact.lead">The fastest path is email. This address routes to me directly.</p>
+      <div class="contact-row">
+        <div class="k" data-i18n="contact.email">Email</div>
+        <div><a href="mailto:kris@pyja.net">kris@pyja.net</a></div>
+      </div>
+      <div class="contact-row">
+        <div class="k" data-i18n="contact.github">GitHub</div>
+        <div><a href="https://github.com/Able6803">github.com/Able6803</a></div>
+      </div>
+      <div class="contact-row">
+        <div class="k" data-i18n="contact.linkedin">LinkedIn</div>
+        <div data-i18n="contact.linkedin.v">— will add later</div>
+      </div>
+      <p class="entry-body" style="margin-top: 30px; color: var(--steel);" data-i18n="contact.note">No recruiters? That's fine. Direct messages get answered faster.</p>
     </div>
   </section>
 
