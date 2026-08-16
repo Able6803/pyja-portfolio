@@ -255,6 +255,30 @@ p + p { margin-top: 12px; }
 }
 .site-foot .foot-ru { color: var(--red); }
 
+/* soft skills glossary */
+.soft-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 56px;
+  border-top: 1px solid var(--hairline);
+}
+.soft-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px dotted var(--hairline);
+  align-items: baseline;
+}
+.soft-row .sk {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.soft-row .ev { font-size: 14px; color: var(--ink-soft); }
+
 /* ————— responsive ————— */
 @media (max-width: 760px) {
   .hero-grid { grid-template-columns: 1fr; gap: 28px; }
@@ -262,6 +286,8 @@ p + p { margin-top: 12px; }
   .instrument .m { text-align: left; }
   .dossier-item { grid-template-columns: 1fr; gap: 8px; }
   .contact-row { grid-template-columns: 1fr; gap: 4px; }
+  .soft-grid { grid-template-columns: 1fr; }
+  .soft-row { grid-template-columns: 1fr; gap: 2px; }
   .section { padding: 44px 0; }
   .hero { padding: 52px 0 44px; }
 }
