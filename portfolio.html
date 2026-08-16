@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Kris Liles</title>
+  <meta name="description" content="Portfolio of Kris Liles — self-hosted infrastructure, genealogical research, Russian language tooling, and AI agent operations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="logo" href="index.html">KML<span class="logo-red">.</span> <span data-i18n="logo.tag">Kris Liles</span></a>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="resume.html" data-i18n="nav.resume">Résumé</a>
+        <a href="portfolio.html" class="active" data-i18n="nav.portfolio">Portfolio</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <button class="lang-toggle" aria-label="Switch language">RU</button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 56px 0 40px;">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="portfolio.eyebrow">Built things · Построенные вещи</p>
+      <h1 data-i18n="portfolio.title">Portfolio</h1>
+      <p class="lede" data-i18n="portfolio.lead">Real systems, real outputs. Four tracks, all running today.</p>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom: none;">
+    <div class="wrap">
+      <div class="dossier">
+        <div class="dossier-item">
+          <div class="cat" data-i18n="pf.1.cat">Инфраструктура</div>
+          <div>
+            <h3 data-i18n="pf.1.t">Self-hosted intelligence stack</h3>
+            <p class="desc" data-i18n="pf.1.d">Oracle ARM free tier running Jellyfin, Kavita, and Shelfmark behind a Cloudflare Zero Trust tunnel — default-deny firewall, fail2ban, unattended upgrades. Zero inbound exposure beyond SSH.</p>
+            <p class="tags" data-i18n="pf.1.tags">docker · cloudflare · linux hardening</p>
+            <span class="status" data-i18n="pf.1.status">In production</span>
+          </div>
+        </div>
+        <div class="dossier-item">
+          <div class="cat" data-i18n="pf.2.cat">Исследование</div>
+          <div>
+            <h3 data-i18n="pf.2.t">Genealogical research archive</h3>
+            <p class="desc" data-i18n="pf.2.d">Multi-line family reconstruction with citation-grade sourcing: 89 ancestor cards, 276 GPS-compliant source links, interactive visual tree.</p>
+            <p class="tags" data-i18n="pf.2.tags">research · citations · html/js</p>
+            <span class="status" data-i18n="pf.2.status">In progress</span>
+          </div>
+        </div>
+        <div class="dossier-item">
+          <div class="cat" data-i18n="pf.3.cat">Язык</div>
+          <div>
+            <h3 data-i18n="pf.3.t">Russian language tooling</h3>
+            <p class="desc" data-i18n="pf.3.d">DLPT-style practice engine and a Gloss→Anki pipeline that turns military glossaries into drill decks. This site's bilingual toggle is the same discipline.</p>
+            <p class="tags" data-i18n="pf.3.tags">html/js · anki · instructional design</p>
+            <span class="status" data-i18n="pf.3.status">In use</span>
+          </div>
+        </div>
+        <div class="dossier-item">
+          <div class="cat" data-i18n="pf.4.cat">ИИ</div>
+          <div>
+            <h3 data-i18n="pf.4.t">AI agent operations</h3>
+            <p class="desc" data-i18n="pf.4.d">Persistent Hermes agent deployments: scheduled financial and security monitoring, multi-agent research fan-outs, and skill engineering for repeatable workflows.</p>
+            <p class="tags" data-i18n="pf.4.tags">agents · cron · automation</p>
+            <span class="status" data-i18n="pf.4.status">In use</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="wrap" style="width: 100%; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <span data-i18n="foot.left">© 2026 Kris Liles</span>
+      <span class="foot-ru" data-i18n="foot.right">Сделано с расчётом · Built with intent</span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
